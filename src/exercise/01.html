@@ -17,3 +17,14 @@
 <!-- 🐨 Append the div to the root div using `append` -->
 <!--   💰 document.getElementById('root') -->
 <!--   📜 https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/append -->
+<html>
+  <body>
+    <script type="module">
+      // your JavaScript here
+      let div = document.createElement('div')
+      div.textContent = '...'
+      const root = document.getElementsByTagName('html')[0].append(div) // 获取 <html> 根节点.append(div)
+    </script>
+    <div>Hello World</div>
+  </body>
+</html>
